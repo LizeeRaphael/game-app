@@ -1,16 +1,14 @@
-// import Message from "./Message";
-
-// function App() {
-//   return <div><Message /></div>;
-// }
-// export default App;
+import ListGroup from "./components/ListGroup";
 
 function App() {
   return (
-    <div className="container text-center mt-5">
-      <h1 className="text-primary">Hello Bootstrap 🎉</h1>
-      <button className="btn btn-success">Click Me</button>
-    </div>
+    <ul className="list-group">
+      <li className="list-group-item">An item</li>
+      <li className="list-group-item">A second item</li>
+      <li className="list-group-item">A third item</li>
+      <li className="list-group-item">A fourth item</li>
+      <li className="list-group-item">And a fifth one</li>
+    </ul>
   );
 }
 
