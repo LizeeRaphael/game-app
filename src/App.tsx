@@ -21,14 +21,6 @@ function ListGroup() {
   let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
   items = [];
 
-  if (items.length === 0)
-    return (
-      <>
-        <h1>List</h1>
-        <p>No items found.</p>
-      </>
-    );
-
   return (
     <>
       <h1>List</h1>
