@@ -19,7 +19,6 @@
 
 function ListGroup() {
   let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
-  items = [];
 
   return (
     <>
