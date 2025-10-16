@@ -2,7 +2,13 @@
 
 import { useState } from "react";
 
-function ListGroup() {
+// { items:[], heading: strings }
+interface Props {
+  items: string[];
+  heading: string;
+}
+
+function ListGroup(props: Props) {
   let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
 
   //Hook allows us tap into built-in functions in React
